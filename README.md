@@ -1,6 +1,6 @@
 # hkxcli
 
-A TUI for horkruxes, written in C.
+A CLI client for horkruxes, written in C.
 
 ## Installation
 
