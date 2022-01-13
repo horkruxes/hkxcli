@@ -3,7 +3,7 @@ FROM alpine:3.13.6 AS build
 WORKDIR /hkxcli/build
 COPY src /hkxcli/src
 RUN apk add gcc libc-dev make cmake \
-        && cmake /hkxcli/src \
+        && cmake .. \
         && cmake --build .
 
 FROM alpine:3.13.6
